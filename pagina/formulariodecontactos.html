@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+     <img src="../imagenes/logoblanco.png" width="150" height="100" alt="Foto de la Portada">
+    <h1>Flor Ruiz Nails</h1>
+</header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Quiénes Somos</a></li>
+            <li><a href ="../index.html">Servicios</a>
+                <ul class="menuOculto">
+                    <li><a href="Nuestros Servicios">Semipermanente</a></li>
+                    <li><a href="Nuestros Servicios">Capping</a></li>
+                    <li><a href="Nuestros Servicios">Esculpidas</a></li>
+                    <li><a href="Nuestros Servicios">Soft Gel</a></li>
+                    <li><a href="Nuestros Servicios">Sistema Hibrido</a></li>
+                    <li><a href="Nuestros Servicios">Pedicuria</a></li>
+                </ul>
+            </li>
+            <li><a href="./horariosdeatencion.html">Horarios de Atención</a></li>
+            <li><a href="./formulariodecontactos.html">Contacto</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+        </ul>
+    </nav>    
+
+    <form>
+        <h2>Complete el formulario</h2>
+        <div class="conteiner-contacto">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="name" id="name" placeholder="Apellido">
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" placeholder="Telefono">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@hotmail.com" maxlength="27" required="">
+            
+            <label for="name">País de prodecencia</label>
+            <select name="pais" id="pais">
+                <option value="Argentina">....</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Bolivia">Bolivia</option>
+            </select>
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="comentario opcional"></textarea>
+            <div>
+                <input class="btn" type="submit" value="enviar comentario" onclick="alert('Tus datos han sido enviados')">
+            </div>
+        </div>
+    </form>
+
+    <div class="mapa">
+        <h1>Descubre dónde estamos</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d678.3024674173042!2d-60.22963123459709!3d-33.319017090791824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b767e8a8e2a897%3A0x3e34c9c393449453!2sNicanor%20Pay%C3%A1n%2076%2C%20B2900%20San%20Nicol%C3%A1s%20de%20Los%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1725278730684!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+<footer class="piedepagina">
+    <div class="grupo1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="../imagenes/logoblanco.png" alt="Logo de Flor Ruiz Nails">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>San Nicolás de los Arroyos, Pcia. de Buenos Aires.</p>
+            <p>CP 2900</p>
+        </div>
+            
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/flor.ruiz.85" class="fa fa-facebook" aria-hidden="true"><i class="bx bxl-facebook"></i></a>
+                    
+                    <a href="https://www.instagram.com/flor_ruiz_nails/" class="fa fa-instagram" aria-hidden="true"><i class="bx bxl-instagram"></i></a>
+                
+                    <a href="https://wa.me//03364336538" class="fa fa-whatsapp" aria-hidden="true"><i class="bx bxl-whatsapp"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>© 2024 <b>Flor Ruiz Nails</b> - Todos los Derechos Reservados.</small>
+            <p> Todas las fotos son de mi autoria.</p>
+        </div>
+    </footer>
+</body>
+</html>
